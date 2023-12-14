@@ -1,0 +1,18 @@
+# train: ../train/images
+# val: ../valid/images
+# test: ../test/images
+names:
+ - mask
+ - no-mask
+nc: 2
+
+roboflow:
+  workspace: roboflow-100
+  project: mask-wearing-608pr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/mask-wearing-608pr/dataset/2
+
+train: C:\Users\79526\Desktop\University\3\Machine\mask wearing.v2-release.yolov8\train\images
+val: C:\Users\79526\Desktop\University\3\Machine\mask wearing.v2-release.yolov8\valid\images
+test: C:\Users\79526\Desktop\University\3\Machine\mask wearing.v2-release.yolov8\test\images
